@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clique e informe seu nome completo."
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/textViewNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clique e escolha sua data de nascimento." />
+
+    <EditText
+        android:id="@+id/editTextPresente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clique e informe o que gostaria de ganhar de presente."
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar" />
+
+    <TextView
+        android:id="@+id/textViewMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E6FA"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextNomeC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clique e informe o nome da pessoa que deseja consultar."
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar" />
+
+    <Button
+        android:id="@+id/buttonListarTodos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exibir lista completa" />
+
+</LinearLayout>
