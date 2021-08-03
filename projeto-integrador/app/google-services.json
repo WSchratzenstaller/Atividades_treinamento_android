@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "293055313110",
+    "project_id": "projeto-integrador-wilcilene",
+    "storage_bucket": "projeto-integrador-wilcilene.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293055313110:android:48b0a6a09b3197bf5f8577",
+        "android_client_info": {
+          "package_name": "com.schratzenstaller.wilcilene.projeto_integrador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293055313110-mde6rb9q7hv7bkbt06vuenbskn5ulo2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG5Gxyq3mM72eAebqeYIBaNT9drdAeJFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293055313110-mde6rb9q7hv7bkbt06vuenbskn5ulo2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
